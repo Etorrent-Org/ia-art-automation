@@ -1,17 +1,114 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Politique de confidentialité · IA-Art Automation</title><meta name="description" content="Politique de confidentialité de l’application personnelle IA-Art Automation."><link rel="stylesheet" href="styles.css"></head><body>
-<nav class="nav-shell" aria-label="Navigation principale"><a class="brand" href="index.html"><span class="brand-mark">IA</span><span>IA-Art Automation</span></a><a class="nav-link active" href="privacy.html" aria-current="page">Confidentialité</a></nav>
-<main><header class="legal-hero"><p class="eyebrow">Dernière mise à jour · 5 août 2026</p><h1>Politique de confidentialité</h1><p>Cette politique décrit les données strictement nécessaires au workflow personnel IA-Art Automation et la manière dont elles sont contrôlées.</p></header>
-<div class="legal-layout"><aside class="legal-summary"><p class="summary-label">En bref</p><ul><li>Usage personnel uniquement</li><li>Données du propriétaire uniquement</li><li>Exécution n8n auto-hébergée</li><li>Aucune vente de données</li><li>Aucun cookie propre</li></ul></aside><article class="legal-content">
-<section><h2>1. Responsable</h2><p>IA-Art Automation est une application personnelle exploitée par Erwann Torrent. Le contact public est disponible via le <a href="https://github.com/ErwannTorrent">profil GitHub ErwannTorrent</a> et le <a href="https://github.com/Etorrent-Org/ia-art-automation/issues">suivi des demandes</a>.</p></section>
-<section><h2>2. Objet de l’application</h2><p>L’application automatise, pour son propriétaire uniquement, la préparation et la publication de visuels IA-Art validés vers son compte Pinterest professionnel. Elle relie un espace Notion, une instance n8n auto-hébergée et l’API Pinterest.</p></section>
-<section><h2>3. Données traitées</h2><ul><li>identifiants techniques du compte Pinterest autorisé ;</li><li>liste des tableaux et des Pins appartenant au propriétaire ;</li><li>images signées, titres, descriptions, textes alternatifs et mots-clés validés ;</li><li>jetons OAuth nécessaires à l’authentification de l’API ;</li><li>identifiants de publication et informations techniques d’exécution.</li></ul></section>
-<section><h2>4. Finalités</h2><ul><li>authentifier le propriétaire auprès de Pinterest ;</li><li>retrouver ses propres tableaux et Pins ;</li><li>publier un Pin après validation humaine explicite ;</li><li>vérifier le résultat et enregistrer son identifiant dans Notion ;</li><li>diagnostiquer une erreur d’automatisation.</li></ul></section>
-<section><h2>5. Stockage et conservation</h2><p>Les identifiants et jetons sont conservés dans le magasin d’identifiants de l’instance n8n auto-hébergée du propriétaire. Les données d’exécution sont conservées selon la configuration de cette instance. Un jeton est supprimé ou révoqué lorsqu’il n’est plus nécessaire. Les contenus publiés restent soumis aux paramètres du compte Pinterest et aux choix du propriétaire.</p></section>
-<section><h2>6. Destinataires et partage</h2><p>Les données sont transmises uniquement aux services nécessaires au workflow : Pinterest pour l’authentification et la publication, et Notion pour le suivi éditorial. Elles ne sont ni vendues, ni louées, ni utilisées pour du ciblage publicitaire. L’application n’est pas proposée à des utilisateurs tiers.</p></section>
-<section><h2>7. Sécurité</h2><p>L’automatisation s’exécute sur une instance n8n auto-hébergée. Aucun secret, jeton OAuth ou accès d’administration n’est publié sur ce site ou dans le dépôt public. Les appels vers les services distants utilisent leurs interfaces API sécurisées.</p></section>
-<section><h2>8. Cookies et mesure d’audience</h2><p>Ce site statique ne dépose aucun cookie propre, n’intègre aucun outil de mesure d’audience et ne comporte aucun formulaire de collecte de données.</p></section>
-<section><h2>9. Contrôle et suppression</h2><p>Le propriétaire peut révoquer l’accès Pinterest, supprimer les identifiants enregistrés dans n8n et supprimer les exécutions ou contenus associés. Toute demande concernant cette politique peut être ouverte dans le dépôt GitHub public.</p></section>
-<section><h2>10. Services tiers</h2><p>Pinterest, Notion et GitHub appliquent leurs propres conditions et politiques de confidentialité. Cette politique décrit uniquement le fonctionnement d’IA-Art Automation.</p></section>
-</article></div></main><footer class="footer"><p>© 2026 Erwann Torrent · IA-Art Automation</p><div><a href="index.html">Accueil</a><a href="https://github.com/ErwannTorrent">Profil GitHub</a><a href="https://github.com/Etorrent-Org/ia-art-automation/issues">Support</a></div></footer>
-</body></html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité du projet Etorrent-Org IA-Art Automation.">
+  <title>Politique de confidentialité · Etorrent-Org IA-Art Automation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav-shell" aria-label="Navigation principale">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">IA</span>
+      <span>Etorrent-Org · IA-Art</span>
+    </a>
+    <a class="nav-link active" href="privacy.html" aria-current="page">Confidentialité</a>
+  </nav>
+
+  <main>
+    <header class="legal-hero">
+      <p class="eyebrow">Dernière mise à jour · 13 août 2026</p>
+      <h1>Politique de confidentialité</h1>
+      <p>Cette politique décrit les données strictement nécessaires au workflow privé Etorrent-Org IA-Art Automation et la manière dont elles sont contrôlées.</p>
+    </header>
+
+    <div class="legal-layout">
+      <aside class="legal-summary">
+        <p class="summary-label">En bref</p>
+        <ul>
+          <li>Usage personnel uniquement</li>
+          <li>Données du propriétaire uniquement</li>
+          <li>Exécution n8n auto-hébergée</li>
+          <li>Aucune vente de données</li>
+          <li>Aucun cookie propre</li>
+        </ul>
+      </aside>
+
+      <article class="legal-content">
+        <section>
+          <h2>1. Responsable</h2>
+          <p>IA-Art Automation est un projet Etorrent-Org exploité personnellement par Erwann Torrent. Le compte professionnel associé est le <a href="https://www.pinterest.com/EtorrentOrg/">profil Pinterest EtorrentOrg</a>. Les contacts publics sont disponibles via l’<a href="https://github.com/Etorrent-Org">organisation GitHub Etorrent-Org</a> et le <a href="https://github.com/Etorrent-Org/ia-art-automation/issues">suivi des demandes</a>.</p>
+        </section>
+
+        <section>
+          <h2>2. Objet de l’application</h2>
+          <p>L’application automatise, pour son propriétaire uniquement, la préparation et la publication de visuels IA-Art validés vers le compte Pinterest professionnel EtorrentOrg. Elle relie un espace Notion, une instance n8n auto-hébergée et l’API Pinterest.</p>
+        </section>
+
+        <section>
+          <h2>3. Données traitées</h2>
+          <ul>
+            <li>identifiants techniques du compte Pinterest autorisé ;</li>
+            <li>liste des tableaux et des Pins appartenant au propriétaire ;</li>
+            <li>images signées, titres, descriptions, textes alternatifs et mots-clés validés ;</li>
+            <li>jetons OAuth nécessaires à l’authentification de l’API ;</li>
+            <li>identifiants de publication et informations techniques d’exécution.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>4. Finalités</h2>
+          <ul>
+            <li>authentifier le propriétaire auprès de Pinterest ;</li>
+            <li>retrouver ses propres tableaux et Pins ;</li>
+            <li>publier un Pin après validation humaine explicite ;</li>
+            <li>vérifier le résultat et enregistrer son identifiant dans Notion ;</li>
+            <li>diagnostiquer une erreur d’automatisation.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. Stockage et conservation</h2>
+          <p>Les identifiants et jetons sont conservés dans le magasin d’identifiants de l’instance n8n auto-hébergée du propriétaire. Les données d’exécution sont conservées selon la configuration de cette instance. Un jeton est supprimé ou révoqué lorsqu’il n’est plus nécessaire. Les contenus publiés restent soumis aux paramètres du compte Pinterest et aux choix du propriétaire.</p>
+        </section>
+
+        <section>
+          <h2>6. Destinataires et partage</h2>
+          <p>Les données sont transmises uniquement aux services nécessaires au workflow : Pinterest pour l’authentification et la publication, et Notion pour le suivi éditorial. Elles ne sont ni vendues, ni louées, ni utilisées pour du ciblage publicitaire. L’application n’est pas proposée à des utilisateurs tiers.</p>
+        </section>
+
+        <section>
+          <h2>7. Sécurité</h2>
+          <p>L’automatisation s’exécute sur une instance n8n auto-hébergée. Aucun secret, jeton OAuth ou accès d’administration n’est publié sur ce site ou dans le dépôt public. Les appels vers les services distants utilisent leurs interfaces API sécurisées.</p>
+        </section>
+
+        <section>
+          <h2>8. Cookies et mesure d’audience</h2>
+          <p>Ce site statique ne dépose aucun cookie propre, n’intègre aucun outil de mesure d’audience et ne comporte aucun formulaire de collecte de données.</p>
+        </section>
+
+        <section>
+          <h2>9. Contrôle et suppression</h2>
+          <p>Le propriétaire peut révoquer l’accès Pinterest, supprimer les identifiants enregistrés dans n8n et supprimer les exécutions ou contenus associés. Toute demande concernant cette politique peut être ouverte dans le dépôt GitHub public.</p>
+        </section>
+
+        <section>
+          <h2>10. Services tiers</h2>
+          <p>Pinterest, Notion et GitHub appliquent leurs propres conditions et politiques de confidentialité. Cette politique décrit uniquement le fonctionnement du projet Etorrent-Org IA-Art Automation.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Etorrent-Org · IA-Art Automation</p>
+    <div>
+      <a href="index.html">Accueil</a>
+      <a href="https://github.com/Etorrent-Org">Organisation GitHub</a>
+      <a href="https://www.pinterest.com/EtorrentOrg/">Profil Pinterest</a>
+      <a href="https://github.com/Etorrent-Org/ia-art-automation/issues">Support</a>
+    </div>
+  </footer>
+</body>
+</html>
