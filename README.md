@@ -20,5 +20,5 @@ OAuth ou accès d’administration n’est stocké dans ce dépôt.
 
 ## Contact
 
-- profil : <https://github.com/ErwannTorrent> ;
+- profil : <https://github.com/R1-Torrent> ;
 - support : <https://github.com/Etorrent-Org/ia-art-automation/issues>.
