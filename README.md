@@ -1,24 +1,32 @@
 # IA-Art Automation
 
-Site public de présentation et politique de confidentialité de l’application
-personnelle **Erwann Torrent – IA-Art Automation**.
+> **Statut : historique / non utilisé pour le flux courant.**
 
-## Périmètre
+Ce dépôt publiait la page de présentation et la politique de confidentialité de l’ancien workflow personnel **IA-Art → Pinterest**.
 
-- préparation et validation de visuels IA-Art ;
-- orchestration avec une instance n8n auto-hébergée ;
-- suivi éditorial dans Notion ;
-- publication sur le compte Pinterest autorisé après validation humaine.
+## État actuel
 
-L’application n’est pas proposée à des utilisateurs tiers. Aucun secret, jeton
-OAuth ou accès d’administration n’est stocké dans ce dépôt.
+Le flux éditorial IA-Art courant est désormais centré sur **Instagram** et sa logique de préparation / packaging est maintenue dans `Etorrent-Org/visual-ai-studio` avec Studio Visuel et le Skill IA-Art.
 
-## Pages publiques
+Ce dépôt reste conservé uniquement pour :
 
-- accueil : `index.html` ;
-- politique de confidentialité : `privacy.html`.
+- garder une trace publique de l’ancien workflow Pinterest ;
+- conserver l’ancienne politique de confidentialité associée ;
+- éviter de casser les anciennes URLs GitHub Pages.
+
+Il ne doit plus être présenté comme le workflow actif d’IA-Art.
+
+## Contenu
+
+- `index.html` : page historique ;
+- `privacy.html` : politique de confidentialité historique du flux Pinterest ;
+- `styles.css` : styles du site statique.
+
+## Flux courant
+
+Voir : <https://github.com/Etorrent-Org/visual-ai-studio>
 
 ## Contact
 
 - profil : <https://github.com/R1-Torrent> ;
-- support : <https://github.com/Etorrent-Org/ia-art-automation/issues>.
+- organisation : <https://github.com/Etorrent-Org>.
